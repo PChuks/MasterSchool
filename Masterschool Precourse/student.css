@@ -1,0 +1,45 @@
+.container {
+    background-color: white;
+}
+#page-title{
+    background-color: white;
+    color: blue;
+    text-align: center;
+    text-size-adjust: 30px;
+}
+#student-list{
+    background-color: green;
+   padding: 20px;
+
+}
+.student-information{
+    background-color: blue;
+    text-align: left;
+    text-size-adjust: 20px;
+    color: white;
+    padding: 5px;
+    margin-left: 35px;
+}
+ul > li:nth-child(2){
+    color:red;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+}
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 5%;
+}
+.button{
+    padding: 5px;
+    border-top: 1px solid black;
+    float: right;
+}
+.row{
+    display: flex;
+}
